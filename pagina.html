@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login KTM</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .btnregistro {
+       padding: 10px;
+       background-color: #000;
+       padding-left: 10px;
+       border: 1px solid;
+       border-color: #FF6600;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .csgo {
+      color:#FF6600;
+    }
+    .btnssxd {
+      background-color: #000;
+      width: 100%;
+      color: #FFFFFF;
+      border: none;
+    }
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-half {
+      background-color: #FF6600;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .borbadin {
+     padding: 10px;
+     padding-left: 150px;
+     
+    }
+    .saa {
+      color: #FF6600;
+    }
+
+    .top-half img {
+      width: 500px;
+      max-width: 80%;
+    }
+    .tralelero {
+      padding: 10px;
+      padding-right: 150px;
+    }
+
+    .bottom-half {
+      background-color: #000;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 30px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .login-box {
+      background-color: #1c1c1c;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
+      width: 320px;
+      color: #fff;
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #FF6600;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #FF6600;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: #e65c00;
+    }
+
+    .register-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .register-link a {
+      color: #FF6600;
+      text-decoration: none;
+    }
+
+    .register-link a:hover {
+      text-decoration: underline;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-half">
+      <img src="images/loogotktm.png" alt="KTM Logo">
+    </div>
+    <div class="bottom-half">
+      <div class="tralelero" >
+        <img src="images/tralalero.png" alt="tralalero" width="200" height="300" >
+      </div>
+      <div class="login-box">
+        <h2>Bienvenido</h2>
+      <div class="csgo" >
+        <p>Ingrese su correo</p>
+      </div>
+        
+          <input type="text" name="placa" placeholder="correo@gmail.com" required />
+           <div class="saa">
+              <p>Ingrese su contraseña</p>
+           </div>
+             <input type="password" name="password" placeholder="Contraseña" required />
+        <div class="btnregistro">
+          
+          <button class="btnssxd">Ingresar
+            <a href="registro1.html" ></a>
+          </button>
+        
+        </div>
+        </form>
+        <div class="register-link">
+          ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
+        </div>
+      </div>
+      <div class="borbadin" >
+        <img src="images/cocodirlo.png" alt="cocdrillo" width="200" height="290" >
+      </div>
+    </div>
+  </div>
+</body>
+</html>
